@@ -46,6 +46,9 @@ async def on_message(message: Message) -> None:
     if user_message.startswith('$'):
         await send_message(message, user_message)
 
+
+
+
 # ENTRADA DA MAIN
 def main() -> None:
     client.run(token=TOKEN)
