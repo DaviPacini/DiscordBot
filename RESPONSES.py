@@ -17,7 +17,11 @@ def get_response(user_input: str) -> str:
         return choice(['Sua mãe aquela imensa',
                        'Chupa meu pau',
                        'Dps eu amasso vc no fifa e tu n sabe pq',
-                       'Sua mina eu vou pegar, e lalaialaia'])
+                       'Sua mina eu vou pegar, e lalaialaia',
+                       'Quer me fuder, me beija',
+                       'Masoquista é? pedindo pra te xingar, estranho',
+                       'Vai te fuder, primata',
+                       'cê quer dar cê fala ta?'])
     elif '$dado' in lowered:
         return f'Deu: {randint(1, 6)}'
     elif '$insta' in lowered:
@@ -38,7 +42,7 @@ def get_response(user_input: str) -> str:
         return 'No momento a Line de FIFA se encontra indisponível!'
     elif '$rl' in lowered:
         return 'No momento a Line de ROCKET LEAGUE se encontra indisponível!'
-    elif '$dubidas' in lowered:
+    elif '$duvidas' in lowered:
         return '**1- Como participo da equipe Cyber? ** Divulgamos sempre nos grupos de "$wpp" ou no "$insta" quando os forms para se candidatar estao abertos, então fiquem de olho\n' \
                '**2- Como funcionam os treinos? ** Cada Coordenador tem a autonomia para decidir como os treinos ocorrerão, então por via das dúvidas, consulte o coordenador do seu jogo'
 

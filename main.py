@@ -32,6 +32,7 @@ async def send_message(message: Message, user_message: str) -> None:
 async def on_ready() -> None:
     print(f'{client.user} está ligado')
 
+
 # CONFIGURAÇÃO DO ENVIO DE MENSAGEM
 @client.event
 async def on_message(message: Message) -> None:
